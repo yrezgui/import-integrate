@@ -1,0 +1,28 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "rules": {
+    "quotes": [1, "single"],
+    "no-mixed-requires": [1, true],
+    "no-underscore-dangle": 0,
+    "strict": [2, "never"],
+    "eol-last": 0,
+    "no-trailing-spaces": 1,
+    "no-debugger": 2,
+    "no-console": 1,
+    "no-alert": 1,
+    "func-names": 1,
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclarator": true
+      }
+    }]
+  }
+}
