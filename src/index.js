@@ -1,4 +1,5 @@
 var React     = require('react/addons');
+Object.assign = require('object-assign');
 var Router    = require('react-router');
 var qs        = require('qs');
 var routes    = require('./routes');
