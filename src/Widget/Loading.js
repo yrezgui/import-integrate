@@ -1,6 +1,6 @@
 var React = require('react/addons');
 
-var Widget = React.createClass({
+var Loading = React.createClass({
   render: function () {
     return (
       <div className="u-text-center u-padding-Axxl">
@@ -14,4 +14,4 @@ var Widget = React.createClass({
   }
 });
 
-module.exports = Widget;
+module.exports = Loading;
